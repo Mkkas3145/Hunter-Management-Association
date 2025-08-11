@@ -18,7 +18,7 @@ body {
 .database {
     width: 100%; min-height: 100dvh;
     display: flex; justify-content: center;
-    align-items: center; padding: 40px;
+    align-items: center; padding: 20px;
     box-sizing: border-box;
 }
 .database_box {
