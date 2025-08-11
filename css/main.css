@@ -50,6 +50,23 @@ body {
     opacity: 0.8; font-size: 14px;
     line-height: calc(14px * 1.4);
 }
+.database_box_description img {
+    width: 100%; height: max-content;
+    border-radius: 10px;
+}
+.database_box_description b {
+    font-size: 16px; line-height: calc(16px * 1.4);
+    font-weight: unset; opacity: 1;
+}
+.database_box_description span {
+    opacity: 0.2;
+}
+.database_box_description_wrap {
+    width: 100%; height: max-content;
+    border: solid 2px #202020;
+    border-radius: 10px; padding: 15px 20px;
+    box-sizing: border-box;
+}
 .database_box_items {
     width: 100%; height: max-content;
     display: flex; flex-direction: column;
