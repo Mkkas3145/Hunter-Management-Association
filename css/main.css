@@ -29,6 +29,21 @@ body {
     width: 100%; height: max-content;
     font-weight: bold; font-size: 24px;
     line-height: calc(24px * 1.4);
+    display: flex; align-items: center;
+}
+.database_box_title_back {
+    width: 40px; height: 40px;
+    border-radius: 20px; cursor: pointer;
+    display: flex; justify-content: center;
+    align-items: center; margin-left: -10px;
+    transition: background-color 0.2s;
+    margin-right: 5px;
+}
+.database_box_title_back svg {
+    width: 20px; height: 20px;
+}
+.database_box_title_back:hover {
+    background-color: #ffffff20;
 }
 .database_box_description {
     width: 100%; height: max-content;
