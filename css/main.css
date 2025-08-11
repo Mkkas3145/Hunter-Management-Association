@@ -58,6 +58,10 @@ body {
 .database_box_item_left svg {
     width: 20px; height: 20px;
 }
+.database_box_item_left img {
+    width: 40px; height: 40px;
+    border-radius: 10px;
+}
 .database_box_item_center {
     width: calc(100% - 75px); height: max-content;
 }
